@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.firstpic{
+  /* margin-top: -1.6%; */
+  /* background-image: url("https://atlassianblog.wpengine.com/wp-content/uploads/2019/03/how-to-be-productive-at-work@3x.png"); */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(2, 118, 172);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* padding-bottom: 0.5%; */
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+.firstpic2{
+  /* opacity: 0.2; */
+  /* margin-top: -1.6%; */
+  /* background-image: url("https://atlassianblog.wpengine.com/wp-content/uploads/2019/03/how-to-be-productive-at-work@3x.png"); */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(2, 118, 172);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* padding-bottom: 0.5%; */
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+.select{
+  margin-top: 20%;
+}
+.ftext{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 4%;
+}
+.background{
+  background-image: url("https://blog.ipleaders.in/wp-content/uploads/2019/11/10-Ways-to-Be-More-Productive-At-Work.jpg");
+}
+.butt{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 25%;
+  border-radius: 15px;
+  height: 35px;
+  width: 200px;
+  background-color: rgb(245, 201, 8);
+  border: 0px solid transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: all 0.5s ease;
+}
+.butt:hover{
+  border-radius: 0px;
+  width: 250px;
+}
+.butt:focus{
+  outline: none;
+}
+.thrdbutt{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5%;
+  border-radius: 15px;
+  height: 35px;
+  width: 200px;
+  background-color: rgb(245, 201, 8);
+  border: 0px solid transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: all 0.5s ease;
+}
+.thrdbutt:hover{
+  border-radius: 0px;
+  width: 250px;
+}
+.thrdbutt:focus{
+  outline: none;
+}
+.head{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  background-color:  rgb(2, 118, 172);
+}
+
+.ques{
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+
+}
+/* image koi bhi esi lage laga de */
+.divques1{
+  border: 2px solid none;
+  height: 100px;
+  width:30%;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url('./images/img2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 5px 5px rgb(6, 85, 150);
+ cursor: pointer;
+  
+}
+.divques2{
+  border: 2px solid none;
+  height: 100px;
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url('./images/img1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 5px 5px rgb(6, 85, 150);
+ cursor: pointer;
+}
+.divques3{
+ cursor: pointer;
+
+  border: 2px solid none;
+  height: 100%;
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url('./images/img3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 5px 5px rgb(6, 85, 150);
+}
+
+/* .quesMain{
+  display: flex;
+  justify-content: center;
+} */
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  p {
+    font-size: 100%;
+  }
+  .divques1,.divques2,.divques3{
+width: 60%;
+height: 200%;
+margin-top: -6%;
+display: flex;
+justify-content: space-around;
+  }
+}
+.firstpic4{
+  /* margin-top: -1.6%; */
+  /* background-image: url("https://atlassianblog.wpengine.com/wp-content/uploads/2019/03/how-to-be-productive-at-work@3x.png"); */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(2, 118, 172);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* padding-bottom: 0.5%; */
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+.water{
+  justify-content: center;
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .water {
+    display: inline-block;
+  }
+}
+.waterpic{
+  height: 170px;
+}
+@media only screen and (max-width: 600px) {
+  .waterpic {
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .toptop {
+    margin-top: 35%;
+    
+  }
+}
+.otherpic{
+  height: 250px;
+}
+.firstpic8{
+  /* overflow-y: scroll; */
+  /* margin-top: -1.6%; */
+  /* background-image: url("https://atlassianblog.wpengine.com/wp-content/uploads/2019/03/how-to-be-productive-at-work@3x.png"); */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(2, 118, 172);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* padding-bottom: 0.5%; */
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .firstpic8 {
+    overflow-y: scroll;
+    /* height: 130px; */
+  }
+}
+ 
+
+/* 
+/* .navBar{
+border-right: 2px  red;
+} */
+
+
+
+
+/* 
+.navsMenu{
+  border: 1px solid ;
+  border-radius: 0px 0px 25px 25px;
+  width: 30%;
+}
+.navsMenu{
+  text-align: justify; 
+ justify-content: center;
+ align-items: center;   
+background-color:  rgb(50, 80, 152);
+color: white;
+ text-align: center;
+
+}
+
+
+@media only screen and (max-width: 600px){
+  .navsMenu {
+    width: 100%;
+    border-bottom: 1px solid;
+  }
+}
+
+
+@media only screen and (max-width: 700px){
+  .navsMenu {
+    width: 100%;
+    border-bottom: 1px solid;
+  }
+}
+ 
+
+  .icon:hover{
+    color: white;
+  }
+  .newHabbit:hover{
+    border-radius: 30px solid  rgb(50, 80, 152);
+    background-color: rgb(50, 80, 152);
+    color: white;
+  width: 21%;
+  }
+
+
+ .today{
+   display: flex;
+   
+   margin-left: 270px;
+   margin-top: -60px;
+   width: 40%;
+   height: 40%;
+   border-radius: 20px 20px 20px 20px;
+   background-color: rgb(2, 118, 172);
+  
+  } */
+
+ 
+
+  .main{
+    background-color: rgba(22, 21, 21, 0.904);
+    height: 100vh;
+  }
+
+  .navsBar{
+    text-align: justify; 
+    /* justify-content: center; */
+    align-items: center;   
+   background-color:  rgb(50, 80, 152);
+   color: white;
+    text-align: center;
+    border: 1px solid ;
+  border-radius: 0px 0px 25px 25px;
+  width: 100%;
+  height: 121px;
+  
+  }
+ 
+
+ @media only screen and (max-width: 600px){
+  .navsBar {
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+  }
+}
+
+
+@media only screen and (max-width: 700px){
+  .navsBar {
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+  }
+}
+ 
+.newHabbits:hover{
+  border-radius: 35px 35px 35px 35px ;
+  /* transition: all 0.5 ease; */
+  /* border:1px solid rgb(50, 80, 152); */
+  background-color: rgb(50, 80, 152);
+  color: white;
+  /* width: 21%; */
+}
+.newHabbits{
+  color: rgb(50, 80, 152);
+  /* transition: 1!important; */
+  transition: background-color 1s;
+  border-radius: 35px 35px 35px 35px ;
+  padding-left: 1%  ;
+  width: 22%;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 881px){
+  .newHabbits {
+    width: 30%;
+    padding-left:10px;
+    
+  }
+}
+
+@media only screen and (max-width: 669px){
+  .newHabbits {
+    width: 35%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 584px){
+  .newHabbits {
+    width: 40%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 500px){
+  .newHabbits {
+    width: 45%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 446px){
+  .newHabbits {
+    width: 50%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 400px){
+  .newHabbits {
+    width: 55%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 360px){
+  .newHabbits {
+    width: 60%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 338px){
+  .newHabbits {
+    width: 65%;
+    padding-left:10px;
+    
+  }
+}
+@media only screen and (max-width: 310px){
+  .newHabbits {
+    width: 73%;
+    padding-left:10px;
+    
+  }
+}
+
+
+
+.dirnkWater{
+  height: 20vh;
+  width: 40%;
+  background-color: rgb(2, 118, 172);
+ color: white;
+  /* background-color: rgba(22, 21, 21, 0.904); */
+  border-radius: 15px;
+
+}
+
+@media only screen and (max-width:600px){
+  .dirnkWater {
+    margin-top: 3%;
+      width: 80%;
+    height: 20vh;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+} 
+.justcont{
+  display: flex;
+  justify-content: center;
+}
+.ptext{
+  font-size: 10px!important;
+}
+@media only screen and (max-width: 600px){
+  .ptext {
+      /* width: 80%; */
+    /* height: 20vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 15px!important;
+  }
+} 
+
+/* @media only screen and (max-width: 700px){
+  .drinkWater {
+    width: 100%; 
+    height: 200px;
+  }
+} */
+
